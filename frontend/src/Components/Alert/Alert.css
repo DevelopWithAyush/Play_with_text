@@ -1,0 +1,28 @@
+.alertcont{display: flex;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1;
+    transition: .3s ease;
+}
+.alert{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    align-items: center;
+    width: 20%;
+    background-color: rgb(57, 235, 131);
+    border-radius: 1rem;
+}
+.alert p{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.alert i{
+    cursor: pointer;
+}
